@@ -1,0 +1,106 @@
+body{
+	box-sizing: content-box;
+	margin: 0 auto;
+	font-family: "Open Sans";
+ 	font-style: normal;
+}
+.container{
+	margin: 0 auto;
+	padding: 0;
+	width: 80%;
+}
+.text-center{
+	text-align: center;
+}
+/*-------------Reset------*/
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr,del, em, img, ins, kbd, q, s, samp, sub, sup, tt, var,
+b, u, i, dl, dt, dd, ol, ul, li,tbody, tfoot,tr, th, td, a, figcaption, pie de página, encabezado, hgroup, 
+audio {
+	margin: 0;
+	padding: 0;
+}
+/*-----------header-----------*/
+header{
+	background-color: white;
+	padding: 15px 0px;
+}
+.logo{
+	height: 40px;
+}
+nav a{
+	color: #ABADB1;
+	text-decoration: none;
+	padding-left: 10px;
+	float: right;
+}
+nav a:hover{
+	color: #3EB0F7;
+}
+/*-----------section----------*/
+section{
+	background-color: #808080;
+	color: white;
+	padding: 50px 0px;
+}
+.texto_principal{
+	font-size: 50px;
+	font-weight: 600;
+}
+/*---------form--------*/
+.caja{
+	background-color: #9A9A9A;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+    float: right;
+}
+input{
+	width: 237px;
+    height: 30px;
+    padding-left: 5px;
+    color: #ABADB1;
+    margin-bottom: 5px;
+}
+.submit{ 
+	background-color: #3EB0F7;
+    border: transparent;
+    color: white;
+    width: 246px;
+}
+.texto-backyard{
+	text-align: justify;
+    margin-top: 40px;
+}
+footer{
+	padding: 20px 0px;
+}
+footer p{
+	color: #ABADB1;
+}
+footer p span{
+	color: #4A5BEF;
+}
+@media (max-width: 535px) {
+  	section{
+  		padding: 30px 0px;
+  	}
+  	.caja{
+    	margin:15px 0px;
+    	width: 95%;
+    	padding: 20px 10px;
+	}
+	input{
+		width: 98%;
+    	height: 30px;
+	}
+	.submit{ 
+	    width: 100%;
+		}
+	h1{
+		padding-bottom: 10px;
+	}
+	.texto-backyard{
+		text-align: left;
+	}
+}	
